@@ -45,7 +45,7 @@ class _HomePageState extends State<HomePage> {
         children: Shoes.shoes.map((shoe) {
           return ShoesThumbnail(
             shoe: shoe,
-            backgroundColor: RandomColor.listRandom(),
+            backgroundColor: RandomColor.colors[shoe.hashCode % 9],
           );
         }).toList(),
       ),

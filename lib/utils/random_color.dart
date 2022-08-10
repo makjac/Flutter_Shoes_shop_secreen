@@ -11,6 +11,9 @@ class RandomColor {
     const Color.fromARGB(95, 153, 8, 133),
     const Color.fromARGB(95, 99, 129, 8),
     const Color.fromARGB(95, 69, 38, 141),
+    const Color.fromARGB(95, 7, 163, 103),
+    const Color.fromARGB(95, 170, 8, 111),
+    const Color.fromARGB(95, 168, 183, 6),
   ];
 
   static Color listRandom() {
